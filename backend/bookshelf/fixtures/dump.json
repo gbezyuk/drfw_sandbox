@@ -8,10 +8,33 @@
   }
 },
 {
+  "model": "bookshelf.author",
+  "pk": 2,
+  "fields": {
+    "first_name": "Neil",
+    "last_name": "Gaiman"
+  }
+},
+{
+  "model": "bookshelf.author",
+  "pk": 3,
+  "fields": {
+    "first_name": "Terry",
+    "last_name": "Pratchett"
+  }
+},
+{
   "model": "bookshelf.publisher",
   "pk": 1,
   "fields": {
     "name": "Orbit Books"
+  }
+},
+{
+  "model": "bookshelf.publisher",
+  "pk": 2,
+  "fields": {
+    "name": "Gollancz"
   }
 },
 {
@@ -20,7 +43,9 @@
   "fields": {
     "title": "Drive",
     "author": 1,
-    "publisher": 1
+    "coauthor": null,
+    "publisher": 1,
+    "year": null
   }
 },
 {
@@ -29,7 +54,9 @@
   "fields": {
     "title": "The Churn",
     "author": 1,
-    "publisher": 1
+    "coauthor": null,
+    "publisher": 1,
+    "year": null
   }
 },
 {
@@ -38,7 +65,9 @@
   "fields": {
     "title": "The Butcher of Anderson Station",
     "author": 1,
-    "publisher": 1
+    "coauthor": null,
+    "publisher": 1,
+    "year": null
   }
 },
 {
@@ -47,7 +76,9 @@
   "fields": {
     "title": "Leviathan Wakes",
     "author": 1,
-    "publisher": 1
+    "coauthor": null,
+    "publisher": 1,
+    "year": null
   }
 },
 {
@@ -56,7 +87,9 @@
   "fields": {
     "title": "Caliban's War",
     "author": 1,
-    "publisher": 1
+    "coauthor": null,
+    "publisher": 1,
+    "year": null
   }
 },
 {
@@ -65,7 +98,9 @@
   "fields": {
     "title": "Gods of Risk",
     "author": 1,
-    "publisher": 1
+    "coauthor": null,
+    "publisher": 1,
+    "year": null
   }
 },
 {
@@ -74,7 +109,9 @@
   "fields": {
     "title": "Abaddon's Gate",
     "author": 1,
-    "publisher": 1
+    "coauthor": null,
+    "publisher": 1,
+    "year": null
   }
 },
 {
@@ -83,7 +120,9 @@
   "fields": {
     "title": "The Vital Abyss",
     "author": 1,
-    "publisher": 1
+    "coauthor": null,
+    "publisher": 1,
+    "year": null
   }
 },
 {
@@ -92,7 +131,9 @@
   "fields": {
     "title": "Cibola Burn",
     "author": 1,
-    "publisher": 1
+    "coauthor": null,
+    "publisher": 1,
+    "year": null
   }
 },
 {
@@ -101,7 +142,9 @@
   "fields": {
     "title": "Nemesis Games",
     "author": 1,
-    "publisher": 1
+    "coauthor": null,
+    "publisher": 1,
+    "year": null
   }
 },
 {
@@ -110,7 +153,20 @@
   "fields": {
     "title": "Babylon's Ashes",
     "author": 1,
-    "publisher": 1
+    "coauthor": null,
+    "publisher": 1,
+    "year": null
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 12,
+  "fields": {
+    "title": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+    "author": 3,
+    "coauthor": 2,
+    "publisher": 2,
+    "year": 1990
   }
 }
 ]

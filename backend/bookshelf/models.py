@@ -33,10 +33,14 @@ class Book(models.Model):
     class Meta:
         verbose_name = _('book')
         verbose_name_plural = _('books')
+        default_related_name = 'books'
 
-    title = models.CharField(_('title'), max_length=50)
+    title = models.CharField(_('title'), max_length=200)
     author = models.ForeignKey(to=Author, verbose_name=_('author'))
+    coauthor = models.ForeignKey(to=Author, verbose_name=_('coauthor'), blank=True, null=True,
+                                 related_name='coauthored_books')
     publisher = models.ForeignKey(to=Publisher, verbose_name=_('publisher'))
+    year = models.PositiveSmallIntegerField(_('year'), blank=True, null=True)
 
     def __str__(self):
         return self.title
