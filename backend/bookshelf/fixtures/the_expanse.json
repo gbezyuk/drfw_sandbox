@@ -1,0 +1,116 @@
+[
+{
+  "model": "bookshelf.author",
+  "pk": 1,
+  "fields": {
+    "first_name": "James",
+    "last_name": "Corey"
+  }
+},
+{
+  "model": "bookshelf.publisher",
+  "pk": 1,
+  "fields": {
+    "name": "Orbit Books"
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 1,
+  "fields": {
+    "title": "Drive",
+    "author": 1,
+    "publisher": 1
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 2,
+  "fields": {
+    "title": "The Churn",
+    "author": 1,
+    "publisher": 1
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 3,
+  "fields": {
+    "title": "The Butcher of Anderson Station",
+    "author": 1,
+    "publisher": 1
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 4,
+  "fields": {
+    "title": "Leviathan Wakes",
+    "author": 1,
+    "publisher": 1
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 5,
+  "fields": {
+    "title": "Caliban's War",
+    "author": 1,
+    "publisher": 1
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 6,
+  "fields": {
+    "title": "Gods of Risk",
+    "author": 1,
+    "publisher": 1
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 7,
+  "fields": {
+    "title": "Abaddon's Gate",
+    "author": 1,
+    "publisher": 1
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 8,
+  "fields": {
+    "title": "The Vital Abyss",
+    "author": 1,
+    "publisher": 1
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 9,
+  "fields": {
+    "title": "Cibola Burn",
+    "author": 1,
+    "publisher": 1
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 10,
+  "fields": {
+    "title": "Nemesis Games",
+    "author": 1,
+    "publisher": 1
+  }
+},
+{
+  "model": "bookshelf.book",
+  "pk": 11,
+  "fields": {
+    "title": "Babylon's Ashes",
+    "author": 1,
+    "publisher": 1
+  }
+}
+]
