@@ -1,9 +1,12 @@
 from django.conf.urls import url, include
 from django.contrib import admin
-from auth.viewsets import UserViewSet
+from auth.viewsets import UserViewSet, GroupViewSet
 from rest_framework import routers
+
+
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
+router.register(r'groups', GroupViewSet)
 
 
 urlpatterns = [
